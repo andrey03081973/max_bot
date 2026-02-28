@@ -5,8 +5,8 @@ import json
 from datetime import datetime
 
 # ===== ТОКЕНЫ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ =====
-MAX_TOKEN = os.environ.get("MAX_BOT_TOKEN")
-DEEPSEEK_KEY = os.environ.get("DEEPSEEK_API_KEY")
+MAX_TOKEN = os.environ.get("f9LHodD0cOJ2k-bGWVTScflDCCHuYBKvU-T6Y1kgAs07gopFMEm87XOOIuffKERJ-pWGIOkusGWlpoj76lW4")
+DEEPSEEK_KEY = os.environ.get("sk-1cd90d7386224b6e814d155b1442cf52")
 
 # Проверка наличия токена MAX
 if not MAX_TOKEN:
@@ -210,4 +210,5 @@ def main():
         log("\n👋 Бот остановлен")
 
 if __name__ == "__main__":
+
     main()
